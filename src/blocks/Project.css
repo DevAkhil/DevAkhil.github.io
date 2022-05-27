@@ -1,0 +1,145 @@
+.project {
+  transition: box-shadow 0.5s;
+  background-color: rgb(29, 29, 29);
+  border-radius: 5px;
+  padding: 2em;
+  overflow: hidden;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+h2.project-title {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #f9004d;
+  display: flex;
+  justify-content: center;
+}
+
+p.project-description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 10px;
+}
+
+.project-line {
+  margin: 0 auto;
+
+  align-items: center;
+  width: 15%;
+  height: 1px;
+  background-color: #f9004d;
+}
+
+.project-header {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.project-showcase {
+  height: 15rem;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(203, 203, 203);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.project-showcase iframe {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+.project-features {
+  width: 100%;
+}
+.project-features ul {
+  width: 100%;
+  list-style-type: circle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(198, 201, 216, 0.75);
+}
+.project-features li {
+  padding-bottom: 0.5em;
+}
+
+.project:hover {
+  box-shadow: 0 0 11px rgba(249, 0, 77, 0.2);
+}
+
+.project-footer {
+  padding-top: 2rem;
+  color: white;
+}
+
+.project-technologies-title {
+  color: #f9004d;
+}
+
+.project-technologies {
+  display: flex;
+}
+
+.technology-item {
+  color: #353535;
+  padding: 0 0.5rem;
+  font-size: 2.5em;
+}
+
+.project-technologies-used,
+.project-technologies-title {
+  display: inline;
+  overflow: hidden;
+}
+
+.project-technologies-used {
+  color: rgba(198, 201, 216, 0.75);
+}
+
+.button-area {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.mainImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  .project-features {
+    margin-top: 2rem;
+  }
+
+  .button-area {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-technologies-header {
+    padding-right: 5.5rem;
+  }
+
+  .project-showcase {
+    padding-right: 5.5em;
+  }
+
+  .project-features {
+    padding-right: 5.5rem;
+  }
+}
