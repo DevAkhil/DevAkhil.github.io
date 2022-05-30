@@ -115,7 +115,7 @@ const PortfolioLanding = () => {
                     </div>
                     <div className="cv" style={{ paddingTop: "1rem" }}>
                       <a
-                        href="/assets/CV/AiCV.pdf"
+                        href="/assets/CV/CV_Akhil_Ishwarlaal.pdf"
                         class="rn-button-style--2 btn-solid"
                         target="_blank"
                       >

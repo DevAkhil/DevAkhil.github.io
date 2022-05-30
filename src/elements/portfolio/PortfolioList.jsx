@@ -71,7 +71,7 @@ class PortfolioList extends Component {
               <div className="inner">
                 <p>{technologies}</p>
                 <h4>
-                  <a href="/portfolio-details">{title}</a>
+                  <a>{title}</a>
                 </h4>
 
                 <div className="portfolio-button">
@@ -99,7 +99,6 @@ class PortfolioList extends Component {
                 </div>
               </div>
             </div>
-            <Link className="link-overlay" to="/portfolio-details"></Link>
           </div>
         </div>
       </React.Fragment>

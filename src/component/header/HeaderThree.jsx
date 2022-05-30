@@ -139,7 +139,11 @@ class HeaderThree extends Component {
               </ul>
             </div>
             <div className="header-btn">
-              <a className="rn-btn" target="_blank" href="/assets/CV/AiCV.pdf">
+              <a
+                className="rn-btn"
+                target="_blank"
+                href="/assets/CV/CV_Akhil_Ishwarlaal.pdf"
+              >
                 <span>Download CV</span>
               </a>
             </div>
